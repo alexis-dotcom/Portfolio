@@ -1,0 +1,289 @@
+ <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Alexis Ross</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#writing">Writing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#photography">Photography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Alexis Ross</h1>
+            <p class="lead">Journalist • Photographer • Video Producer</p>
+            <a href="#contact" class="btn btn-primary btn-lg mt-3">Get in Touch</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="/api/placeholder/400/400" alt="Your Name" class="img-fluid rounded-circle shadow">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Welcome to my portfolio! I'm a multimedia journalist with expertise in sports reporting, feature writing, documentary photography, and video storytelling. With over [X] years of experience covering [your beats/areas of specialty], I'm passionate about bringing important stories to light through compelling narratives and visual storytelling.</p>
+                    <p>My work has appeared in [publications/outlets], and I've been recognized with [awards/recognition] for my coverage of [topics/issues]. I believe in journalism that informs, inspires, and creates positive change.</p>
+                    <div class="mt-4">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing Section -->
+    <section id="writing" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Featured Writing</h2>
+            <div class="row">
+                <!-- Writing Sample 1 -->
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100 portfolio-item">
+                        <img src="/api/placeholder/600/400" class="portfolio-img" alt="Article Image">
+                        <div class="card-body">
+                            <span class="category-badge mb-2 d-inline-block">Investigative</span>
+                            <h5 class="card-title">Article Title 1</h5>
+                            <p class="card-text">A brief description of this investigative piece, highlighting its impact and significance. What makes this article stand out?</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Writing Sample 2 -->
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100 portfolio-item">
+                        <img src="/api/placeholder/600/400" class="portfolio-img" alt="Article Image">
+                        <div class="card-body">
+                            <span class="category-badge mb-2 d-inline-block">Feature</span>
+                            <h5 class="card-title">Article Title 2</h5>
+                            <p class="card-text">A brief description of this feature story, highlighting the human elements and storytelling approach you used.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Writing Sample 3 -->
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card h-100 portfolio-item">
+                        <img src="/api/placeholder/600/400" class="portfolio-img" alt="Article Image">
+                        <div class="card-body">
+                            <span class="category-badge mb-2 d-inline-block">Opinion</span>
+                            <h5 class="card-title">Article Title 3</h5>
+                            <p class="card-text">A brief description of this opinion piece, highlighting the perspective you brought and why it matters to readers.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View More Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photography Section -->
+    <section id="photography" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Photography</h2>
+            <div class="row">
+                <!-- Photo 1 -->
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="portfolio-item">
+                        <img src="/api/placeholder/600/600" class="img-fluid" alt="Photography sample">
+                        <div class="p-3 bg-white">
+                            <h5>Photo Title 1</h5>
+                            <p class="text-muted small">Location, Date</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Photo 2 -->
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="portfolio-item">
+                        <img src="/api/placeholder/600/600" class="img-fluid" alt="Photography sample">
+                        <div class="p-3 bg-white">
+                            <h5>Photo Title 2</h5>
+                            <p class="text-muted small">Location, Date</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Photo 3 -->
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="portfolio-item">
+                        <img src="/api/placeholder/600/600" class="img-fluid" alt="Photography sample">
+                        <div class="p-3 bg-white">
+                            <h5>Photo Title 3</h5>
+                            <p class="text-muted small">Location, Date</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Photo 4 -->
+                <div class="col-md-6 mb-4 animate-on-scroll">
+                    <div class="portfolio-item">
+                        <img src="/api/placeholder/800/600" class="img-fluid" alt="Photography sample">
+                        <div class="p-3 bg-white">
+                            <h5>Photo Title 4</h5>
+                            <p class="text-muted small">Location, Date</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Photo 5 -->
+                <div class="col-md-6 mb-4 animate-on-scroll">
+                    <div class="portfolio-item">
+                        <img src="/api/placeholder/800/600" class="img-fluid" alt="Photography sample">
+                        <div class="p-3 bg-white">
+                            <h5>Photo Title 5</h5>
+                            <p class="text-muted small">Location, Date</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View Photography Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Video Production</h2>
+            <div class="row">
+                <!-- Video 1 -->
+                <div class="col-lg-6 mb-4 animate-on-scroll">
+                    <div class="card portfolio-item">
+                        <div class="video-container">
+                            <!-- Placeholder for video - in a real implementation, this would be a YouTube/Vimeo embed -->
+                            <img src="/api/placeholder/800/450" class="img-fluid" alt="Video thumbnail">
+                            <div class="position-absolute top-50 start-50 translate-middle">
+                                <i class="fas fa-play-circle text-white" style="font-size: 4rem; opacity: 0.8;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video Title 1</h5>
+                            <p class="card-text">A brief description of this video project, including its purpose, audience, and impact.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video 2 -->
+                <div class="col-lg-6 mb-4 animate-on-scroll">
+                    <div class="card portfolio-item">
+                        <div class="video-container">
+                            <!-- Placeholder for video - in a real implementation, this would be a YouTube/Vimeo embed -->
+                            <img src="/api/placeholder/800/450" class="img-fluid" alt="Video thumbnail">
+                            <div class="position-absolute top-50 start-50 translate-middle">
+                                <i class="fas fa-play-circle text-white" style="font-size: 4rem; opacity: 0.8;"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Video Title 2</h5>
+                            <p class="card-text">A brief description of this video project, including its purpose, audience, and impact.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Watch Video</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View More Videos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title text-center mb-5">Get In Touch</h2>
+                    <p class="mb-5">I'm open to freelance opportunities, collaborations, and discussions about journalism. Whether you have a story tip, project proposal, or just want to say hello, feel free to reach out!</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-md-4 mb-3">
+                    <i class="fas fa-envelope mb-3" style="font-size: 2rem; color: var(--secondary-color);"></i>
+                    <h5>Email</h5>
+                    <p>your.email@example.com</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <i class="fas fa-phone mb-3" style="font-size: 2rem; color: var(--secondary-color);"></i>
+                    <h5>Phone</h5>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <i class="fas fa-map-marker-alt mb-3" style="font-size: 2rem; color: var(--secondary-color);"></i>
+                    <h5>Location</h5>
+                    <p>City, State, Country</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="social-icon text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon text-white"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon text-white"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="m-0">&copy; 2025 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+   

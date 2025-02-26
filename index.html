@@ -1,7 +1,152 @@
- <!-- Navigation -->
+ <<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Journalist Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --text-color: #333;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url("/api/placeholder/1200/600") center/cover no-repeat;
+            height: 70vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .section-title {
+            position: relative;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--secondary-color);
+        }
+        
+        .nav-link {
+            color: var(--primary-color);
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .nav-link:hover {
+            color: var(--secondary-color);
+        }
+        
+        .social-icon {
+            color: var(--primary-color);
+            font-size: 24px;
+            margin: 0 10px;
+            transition: all 0.3s;
+        }
+        
+        .social-icon:hover {
+            color: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+        
+        .portfolio-item {
+            margin-bottom: 30px;
+            transition: all 0.3s;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .portfolio-img {
+            height: 250px;
+            object-fit: cover;
+            width: 100%;
+        }
+        
+        .category-badge {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        
+        #contact {
+            background-color: var(--light-color);
+        }
+        
+        /* Animation for portfolio items */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.5s;
+        }
+        
+        .animate-on-scroll.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Alexis Ross</a>
+            <a class="navbar-brand fw-bold" href="#">Your Name</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,7 +175,7 @@
     <!-- Hero Section -->
     <header class="hero">
         <div class="container">
-            <h1 class="display-3 fw-bold">Alexis Ross</h1>
+            <h1 class="display-3 fw-bold">Your Name</h1>
             <p class="lead">Journalist • Photographer • Video Producer</p>
             <a href="#contact" class="btn btn-primary btn-lg mt-3">Get in Touch</a>
         </div>
@@ -45,7 +190,7 @@
                 </div>
                 <div class="col-lg-8">
                     <h2 class="section-title">About Me</h2>
-                    <p>Welcome to my portfolio! I'm a multimedia journalist with expertise in sports reporting, feature writing, documentary photography, and video storytelling. With over [X] years of experience covering [your beats/areas of specialty], I'm passionate about bringing important stories to light through compelling narratives and visual storytelling.</p>
+                    <p>Welcome to my portfolio! I'm a multimedia journalist with expertise in investigative reporting, feature writing, documentary photography, and video storytelling. With over [X] years of experience covering [your beats/areas of specialty], I'm passionate about bringing important stories to light through compelling narratives and visual storytelling.</p>
                     <p>My work has appeared in [publications/outlets], and I've been recognized with [awards/recognition] for my coverage of [topics/issues]. I believe in journalism that informs, inspires, and creates positive change.</p>
                     <div class="mt-4">
                         <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
@@ -286,4 +431,55 @@
         </div>
     </footer>
 
-   
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const target = document.querySelector(this.getAttribute('href'));
+                const headerOffset = 80;
+                const elementPosition = target.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Animation on scroll
+        const animateElements = document.querySelectorAll('.animate-on-scroll');
+        
+        function checkIfInView() {
+            const windowHeight = window.innerHeight;
+            const windowTopPosition = window.scrollY;
+            const windowBottomPosition = windowTopPosition + windowHeight;
+            
+            animateElements.forEach(element => {
+                const elementHeight = element.offsetHeight;
+                const elementTopPosition = element.offsetTop;
+                const elementBottomPosition = elementTopPosition + elementHeight;
+                
+                if (
+                    elementBottomPosition >= windowTopPosition && 
+                    elementTopPosition <= windowBottomPosition
+                ) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+        
+        // Initial check and event listener
+        window.addEventListener('load', checkIfInView);
+        window.addEventListener('scroll', checkIfInView);
+        window.addEventListener('resize', checkIfInView);
+        
+        // Add padding to body to account for fixed navbar
+        document.body.style.paddingTop = document.querySelector('.navbar').offsetHeight + 'px';
+    </script>
+</body>
+</html>
